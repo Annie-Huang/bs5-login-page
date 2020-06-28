@@ -9,3 +9,4 @@ https://v5.getbootstrap.com/
 
 C:\react\bs5-login-page>npm init -y
 C:\react\bs5-login-page>npm i bootstrap@next
+C:\react\bs5-login-page>npm i bootstrap-icons
