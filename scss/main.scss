@@ -4,4 +4,7 @@
 // $secondary: $gray-600 !default;
 $secondary: #f4f4f4;
 
+// Partial style by default will not compiled into css
+@import "style";
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
