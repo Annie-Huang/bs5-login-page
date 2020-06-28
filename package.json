@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Annie-Huang/bs5-login-page/issues"
   },
-  "homepage": "https://github.com/Annie-Huang/bs5-login-page#readme"
+  "homepage": "https://github.com/Annie-Huang/bs5-login-page#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1"
+  }
 }
