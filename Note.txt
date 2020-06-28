@@ -10,3 +10,15 @@ https://v5.getbootstrap.com/
 C:\react\bs5-login-page>npm init -y
 C:\react\bs5-login-page>npm i bootstrap@next
 C:\react\bs5-login-page>npm i bootstrap-icons
+
+
+svg icons are in:
+C:\react\bs5-login-page\node_modules\bootstrap-icons\icons
+
+javascript:
+C:\react\bs5-login-page\node_modules\bootstrap\dist\js\bootstrap.js
+C:\react\bs5-login-page\node_modules\bootstrap\dist\js\bootstrap.min.js
+
+scss file:
+C:\react\bs5-login-page\node_modules\bootstrap\scss\bootstrap.scss
+
