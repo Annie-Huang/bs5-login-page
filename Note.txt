@@ -6,3 +6,5 @@ https://github.com/Annie-Huang/bs5-login-page
 https://v5.getbootstrap.com/
 
 =======================================
+
+C:\react\bs5-login-page>npm init -y
