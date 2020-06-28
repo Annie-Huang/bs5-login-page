@@ -4,6 +4,26 @@ $border-radius:    .25rem !default;
 $border-radius-sm: .2rem !default;
 $border-radius-lg: .3rem !default;
  */
+/*
+C:\react\bs5-login-page\node_modules\bootstrap\scss\_variables.scss
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+C:\react\bs5-login-page\node_modules\bootstrap\scss\_utilities.scss, line 318
+    // Padding utilities
+    "padding": (
+      responsive: true,
+      property: padding,
+      class: p,
+      values: $spacers
+    ),
+ */
 html, body {
   height: 100%;
 }
@@ -6993,6 +7013,30 @@ button.close {
 
 .invisible {
   visibility: hidden !important;
+}
+
+.ip-0 {
+  padding: 0 !important;
+}
+
+.ip-1 {
+  padding: 0.3rem !important;
+}
+
+.ip-2 {
+  padding: 0.5rem !important;
+}
+
+.ip-3 {
+  padding: 0.7rem !important;
+}
+
+.ip-4 {
+  padding: 0.9rem !important;
+}
+
+.ip-5 {
+  padding: 1rem !important;
 }
 
 @media (min-width: 576px) {

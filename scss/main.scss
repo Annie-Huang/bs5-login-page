@@ -18,6 +18,47 @@ $border-radius-sm: 0;
 $border-radius-lg: 0;
 
 
+/*
+C:\react\bs5-login-page\node_modules\bootstrap\scss\_variables.scss
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+C:\react\bs5-login-page\node_modules\bootstrap\scss\_utilities.scss, line 318
+    // Padding utilities
+    "padding": (
+      responsive: true,
+      property: padding,
+      class: p,
+      values: $spacers
+    ),
+ */
+
+// Utilities
+$utilities: () !default;
+$utilities: map-merge(
+  (
+    'input-padding': (
+      property: padding,
+      class: ip,
+      values: (
+        0: 0,
+        1: 0.3rem,
+        2: 0.5rem,
+        3: 0.7rem,
+        4: 0.9rem,
+        5: 1rem,
+      )
+    )
+  ),
+  $utilities
+);
+
 
 // Partial style by default will not compiled into css
 @import "style";
